@@ -79,5 +79,6 @@ class ProjectPolicy
     public function forceDelete(User $user, Project $project)
     {
         return $user->role === 'admin';
+
     }
 }
