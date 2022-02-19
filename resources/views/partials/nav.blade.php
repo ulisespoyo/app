@@ -15,6 +15,7 @@
         @guest
         <li class="nav-item"><a class="nav-link {{ setActive('login') }}" href="{{ route('login') }}">Login</a></li>
         @else
+        <li class="nav-item"><a class="nav-link" href="{{ route('users.index') }}">Usuarios</a></li>
         <li class="nav-item"><a href="#" class="nav-link" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"> Cerrar sesión</a>     </li>
         @endguest
      </ul>

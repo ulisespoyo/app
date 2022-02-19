@@ -23,6 +23,9 @@ Route::delete('portafolio/{project}/forceDelete','ProjectController@forceDelete'
 Route::view('/contact','contact')->name('contact');
 Route::post('contact','MessageController@store')->name('messages.store');
 
+Route::get('/usuarios','UserController@index')->name('users.index');
+
+
 Route::get('categorias/{category}','CategoryController@show')->name('categories.show');
 
 Auth::routes();
