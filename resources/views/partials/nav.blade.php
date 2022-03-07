@@ -30,7 +30,7 @@
                      <li class="nav-link"><a href="/Usuarios/{{ auth()->id() }}/editar">Mi cuenta</a></li>
                      <li class="nav-link"><a href="#"  onclick="event.preventDefault(); document.getElementById('logout-form').submit();"> Cerrar sesión</a></li>
                   @else
-                        <li class="nav-link {{ setActive('login') }}" ><a  href="{{ route('login') }}">Login</a></li>
+                        <li class="nav-link {{ setActive('login') }}" ><a  href="{{ route('login') }}">Iniciar Sesion</a></li>
                   @endif
                </ul>
 
