@@ -13,8 +13,11 @@
         "intervention/image": "^2.7",
         "jeroennoten/laravel-adminlte": "^1.25",
         "laravel/framework": "5.8.*",
+        "davejamesmiller/laravel-breadcrumbs": "5.x",
         "laravel/tinker": "^1.0",
         "laraveles/spanish": "^1.2",
+        "spatie/laravel-permission": "^3.17.03",
+        "laravel/ui": "^1.0",
         "ext-gd":"*"
     },
     "require-dev": {
